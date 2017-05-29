@@ -1,0 +1,21 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url("https://yara.moe/rules/") {
+  .background{
+    background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url('https://github.com/tigerfixes/shittyblog/blob/master/black%20wallpaper.png?raw=true') right no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+html {
+    font-size: .875em;
+    color: #F3F3F3;
+}
+  hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #c2c2c2 inset;
+}
+}
